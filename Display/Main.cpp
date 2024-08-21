@@ -63,7 +63,7 @@ void processInput(GLFWwindow *window)
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
 
-    if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+    /*if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
         x += 0.0001;
     else if (glfwGetKey(window, GLFW_KEY_Z) == GLFW_PRESS)
         x -= 0.0001;
@@ -76,6 +76,6 @@ void processInput(GLFWwindow *window)
     if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
         z += 0.0001;
     else if (glfwGetKey(window, GLFW_KEY_C) == GLFW_PRESS)
-        z -= 0.0001;
+        z -= 0.0001;*/
 
 }
